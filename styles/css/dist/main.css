@@ -25,6 +25,14 @@ body {
 
 }
 
+
+@media (max-width:675px)
+{
+    .header{
+        margin-top: -10;
+    }
+}
+
 .header-scrolled {
     background: crimson;
     padding: 20px 0;
@@ -36,7 +44,7 @@ body {
 
 #brand_name {
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
 }
 
 .carousel {
@@ -91,7 +99,7 @@ footer {
 
 .list-items {
     list-style: square;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
 @media(min-width: 675px) {
